@@ -1,0 +1,15 @@
+{
+  "name": "Glysis Software",
+  "version": "1.0.0",
+  "description": "Glysis Software",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thisizprincedev/glysis"
+  },
+  "author": "Prince Dev",
+  "scripts": {
+    "start": "node server/index.mjs"
+  },
+  "private": true,
+  "bundledDependencies": []
+}
