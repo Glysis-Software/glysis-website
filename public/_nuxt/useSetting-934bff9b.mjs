@@ -1,1 +1,1 @@
-import{y as s}from"./entry-9b9d7b16.mjs";function r(){const e=s({}),n=s({});return fetch("https://glysis-api.herokuapp.com/settings/all").then(t=>t.json()).then(t=>e.value=t).catch(t=>n.value=t),{settings:e}}export{r as u};
+import{y as s}from"./entry-9b9d7b16.mjs";function r(){const e=s({}),n=s({});return fetch("https://glysis-backend.glysissoftware.com/settings/all").then(t=>t.json()).then(t=>e.value=t).catch(t=>n.value=t),{settings:e}}export{r as u};
